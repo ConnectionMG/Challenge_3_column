@@ -1,0 +1,209 @@
+
+html, body { 
+    width: 100%;
+    height : 100%;
+    margin: 0px;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+
+#container{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    
+
+}
+
+.sedans{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    height: 500px;
+    text-align: left;
+}
+
+.suvs{
+    /* border-style: solid; */
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    height: 500px;
+    text-align: left;
+}
+
+.luxury{
+    /* border-style: solid; */
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+}
+
+h1{
+    font-family: Big Shoulders Display;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 700;
+    margin-left: 48px;
+    margin-right: 40px;
+    
+    
+}
+
+p{
+    font-family: lexend deca;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    text-align: left;
+    margin-left: 48px;
+    margin-right: 40px;
+    word-spacing: 1px;
+    line-height: 25px;
+    
+}
+
+img{
+    margin-left: 48px;
+    margin-top: 20px;
+}
+
+button{
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    width: 146px;
+    height: 48px;
+    font-family: lexend deca;
+    font-size: 15px;
+    font-weight: 400;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: 48px;
+}
+
+#bluxury{
+    color: hsl(179, 100%, 13%) ;
+    transition: 0.5s;
+}
+#bluxury:hover{
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+}
+#bluxury:hover{
+    transition: 0.5s;
+}
+
+#bsuvs{
+    color: hsl(184, 100%, 22%) ;
+    transition: 0.5s;
+}
+#bsuvs:hover{
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+}
+#bsuvs:hover{
+    transition: 0.5s;
+}
+#bsedans{
+    color:  hsl(31, 77%, 52%) ;
+     transition: 0.5s;
+}
+#bsedans:hover{
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+}
+#bsedans:hover{
+    transition: 0.5s;
+}
+
+
+
+@media screen and (max-width:900px) {
+    #container{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+    }
+    }
+
+
+@media screen and (max-width:720px) {
+        #container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sedans{
+            background-color: hsl(31, 77%, 52%);
+            width: 300px;
+            height: 500px;
+            text-align: left;
+            margin-top: 10px;
+            border-top-left-radius:20px;
+            border-top-right-radius:20px;
+            border-bottom-left-radius: 0px;
+        }
+        
+        .suvs{
+            /* border-style: solid; */
+            background-color: hsl(184, 100%, 22%);
+            width: 300px;
+            height: 500px;
+            text-align: left;
+            
+        }
+        
+        .luxury{
+            /* border-style: solid; */
+            background-color: hsl(179, 100%, 13%);
+            width: 300px;
+            height: 500px;
+            text-align: left;
+            border-bottom-left-radius:20px;
+            border-bottom-right-radius:20px;
+            border-top-right-radius: 0px;
+        }
+       
+        #bluxury{
+            color: hsl(179, 100%, 13%) ;
+            margin-bottom: 10px;
+        }
+        #bsuvs{
+            color: hsl(184, 100%, 22%) ;
+            margin-bottom: 10px;
+        }
+        #bsedans{
+            color:  hsl(31, 77%, 52%) ;
+            margin-bottom: 10px;
+        } 
+        
+        .attribution{
+            position: relative;
+            top: 60%;
+        }
+        }
